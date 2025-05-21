@@ -62,8 +62,8 @@ for img_file in images:
 
     # === ADD FILENAME CAPTION ===
     caption_left = Inches(0.5) # Adjust the text location here
-    caption_top = Inches(6.8)
-    caption_width = Inches(9)
+    caption_top = Inches(6.5)
+    caption_width = Inches(8) # Controls text box length
     caption_height = Inches(1.0)
     textbox = slide.shapes.add_textbox(caption_left, caption_top,
                                        caption_width, caption_height)
